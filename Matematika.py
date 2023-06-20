@@ -6,7 +6,7 @@ class Matematika:
         self.nilai4 = nilai4
 
     def penjumlahan(self):
-        hasil = nilai1+nilai3
+        hasil = nilai1+nilai4
         print (hasil)
         return hasil
     def perkalian(nilai1, nilai2, nilai3):
