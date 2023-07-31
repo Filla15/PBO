@@ -22,10 +22,10 @@ class Man_Employee:
 	def displayCount(self):
 		return f"Nama : {self.name} \nUsia: {self.age} \nAgama: {self.agama} \nJenis Kelamin: {self.jnskel} \nAlamat: {self.alamat} \nStatus: {self.status}"
 
-tes_qois = Man_Employee("Agengg",22,"Agama","laki-laki,"Batang","Jomblo",1000000)
-print(tes_qois.biodata())
+tes_qois = Man_Employee("Ageng",22,"Islam","laki-laki","Batang","Jomblo",1000000)
+print(tes_qois.displayCount())
 print("Suku: ",tes_qois.suku)
 
-tes_qois.displayEmployee()
-tes_qois.displayEmployee()
+tes_qois.displayCount()
+tes_qois.displayCount()
 print("total Employee %d" % Man_Employee.empCount)

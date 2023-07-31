@@ -3,5 +3,5 @@ class Performansi:
         print('Tracking Employee Productivity')
         print('==============================')
         for Employee in employees:
-            employee.work(hours)
+            Employee.work(hours)
         print('')

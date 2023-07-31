@@ -30,8 +30,8 @@ class MovieHandler(xml.sax.ContentHandler):
             print ("Year: ", self.year)
         elif self.CurrentData == "rating":
             print ("Rating: ", self.rating)
-        elif self.CurrentData == "stars":
-            print ("Stars: ", self.start)
+        elif self.CurrentData == "start":
+            print ("Start: ", self.start)
         elif self.CurrentData == "description":
             print ("Description: ", self.description)
         self.CurrentData = ""
@@ -45,8 +45,8 @@ class MovieHandler(xml.sax.ContentHandler):
             self.year = content
         if self.CurrentData == "rating":
             self.rating = content
-        if self.CurrentData == "stars":
-            self.stars = content
+        if self.CurrentData == "start":
+            self.start = content
         if self.CurrentData == "description":
             self.description = content
 
